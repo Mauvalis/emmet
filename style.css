@@ -1,0 +1,33 @@
+#container {
+  position: relative;
+  height: 250px;
+  border: 2px solid green;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#ball {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  transform: translate(0, -50%);
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: black;
+}
+button{
+  align-content: center;
+  padding: 10px;
+  background-color: greenyellow;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  
+}
+#botoner{
+  left: 50px;
+  margin: 0 auto;
+  
+}
